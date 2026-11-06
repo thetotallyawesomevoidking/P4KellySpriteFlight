@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mouse.current.leftButton.isPressed) 
+        if (Mouse.current.leftButton.isPressed)
         {
             // where tf is the mouse? the script that calculates it:
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.value);
@@ -46,6 +46,3 @@ public class PlayerController : MonoBehaviour
         Destroy(gameObject);
     }
 }
-
-// i want capri desktop assistant on this pc
-// capri yams

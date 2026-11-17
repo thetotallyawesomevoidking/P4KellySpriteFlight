@@ -279,6 +279,61 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1256657264}
   m_SourcePrefab: {fileID: 100100000, guid: 584315541e4578b469f4c6ffb1bc2498, type: 3}
+--- !u!1 &588721235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 588721237}
+  - component: {fileID: 588721236}
+  m_Layer: 5
+  m_Name: GameUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &588721236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588721235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: 599700067b92f2346b51ab5d0d4d4241, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 0}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
+--- !u!4 &588721237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588721235}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890704574 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2128407799391696491, guid: 584315541e4578b469f4c6ffb1bc2498, type: 3}
@@ -439,6 +494,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad916cb681d28b04e879a26be29f403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  minsize: 1
+  maxsize: 2.5
+  minSpeed: 30
+  maxSpeed: 150
+  maxSpinSpeed: 100
 --- !u!1 &1226763154
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +654,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad916cb681d28b04e879a26be29f403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  minsize: 1
+  maxsize: 2.5
+  minSpeed: 30
+  maxSpeed: 150
+  maxSpinSpeed: 100
 --- !u!1 &1277790187
 GameObject:
   m_ObjectHideFlags: 0
@@ -716,6 +781,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad916cb681d28b04e879a26be29f403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  minsize: 1
+  maxsize: 2.5
+  minSpeed: 30
+  maxSpeed: 150
+  maxSpinSpeed: 100
 --- !u!1 &1516644092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,6 +1079,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad916cb681d28b04e879a26be29f403e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  minsize: 1
+  maxsize: 2.5
+  minSpeed: 30
+  maxSpeed: 150
+  maxSpinSpeed: 100
 --- !u!1 &2093357460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,3 +1288,4 @@ SceneRoots:
   - {fileID: 224188987}
   - {fileID: 2093357463}
   - {fileID: 1277790188}
+  - {fileID: 588721237}
